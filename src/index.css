@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Caveat:wght@600;700&family=Work+Sans:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-camp-green: #2c4a3b;
+  --color-camp-green-dark: #1d332a;
+  --color-camp-green-light: #4d7361;
+  --color-camp-cream: #faf6ec;
+  --color-camp-cream-dark: #f0e9d8;
+  --color-camp-gold: #c9922f;
+  --color-camp-blush: #d98c7f;
+
+  --font-display: "Baloo 2", ui-rounded, system-ui, sans-serif;
+  --font-hand: "Caveat", cursive;
+  --font-body: "Work Sans", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-camp-cream);
+  color: var(--color-camp-green-dark);
+  font-family: var(--font-body);
+}
