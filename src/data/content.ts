@@ -70,6 +70,8 @@ export type Location = {
   address: string
   note?: string
   url?: string
+  lat: number
+  lng: number
 }
 
 export const locations: Location[] = [
@@ -78,46 +80,62 @@ export const locations: Location[] = [
     address: "Downtown Eureka Springs, AR",
     note: "Details coming soon",
     url: "https://vrbo.onelink.me/ItNz/j91uogru",
+    lat: 36.4003,
+    lng: -93.7393,
   },
   {
     name: "Ermilio's",
     address: "26 White St, Eureka Springs, AR 72632",
     note: "Dinner, Day 1",
     url: "https://ermilios.com/",
+    lat: 36.404826,
+    lng: -93.741838,
   },
   {
     name: "Mud Street Cafe",
     address: "22 S Main St G, Eureka Springs, AR 72632",
     url: "https://www.mudstreetcafe.com/",
+    lat: 36.400914,
+    lng: -93.738668,
   },
   {
     name: "Judge Roy Bean",
     address: "29 S Main St, Eureka Springs, AR 72632",
     note: "Old Time Photo, Day 2",
     url: "https://www.judgeroy.com/#/page/home/",
+    lat: 36.401036,
+    lng: -93.738698,
   },
   {
     name: "The Lovell Winery",
     address: "115 W Van Buren, Eureka Springs, AR 72632",
     note: "Day 2 afternoon",
     url: "https://www.lovellestate.com/",
+    lat: 36.398939,
+    lng: -93.747111,
   },
   {
     name: "Amigos",
     address: "75 S Main St, Eureka Springs, AR 72632",
     note: "Dinner, Day 2",
     url: "https://www.amigoseurekasprings.com/",
+    lat: 36.400423,
+    lng: -93.739853,
   },
   {
     name: "Eureka LIVE",
     address: "35 N Main St, Eureka Springs, AR 72632",
     note: "Drag Show, Day 2",
     url: "https://www.eurekalivear.com/",
+    lat: 36.402312,
+    lng: -93.73639,
   },
   {
     name: "Demo Cabin",
     address: "569 Lakeview Bend, Eureka Springs, AR 72632",
     note: "Lake Day, Day 3",
+    lat: 36.356699,
+    lng: -93.845341,
   },
 ]
 

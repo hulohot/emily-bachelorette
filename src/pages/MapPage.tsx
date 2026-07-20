@@ -1,4 +1,5 @@
 import SectionHeading from "../components/SectionHeading"
+import LocationsMap from "../components/LocationsMap"
 import { locations } from "../data/content"
 
 export default function MapPage() {
@@ -7,17 +8,11 @@ export default function MapPage() {
       <SectionHeading
         eyebrow="Get your bearings"
         title="Map of Eureka Springs"
-        subtitle="Everything for the weekend is walkable in downtown Eureka Springs."
+        subtitle="Everything for the weekend, pinned. Most of downtown is walkable — the Demo Cabin is a short drive south by the lake."
       />
 
-      <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden border-2 border-camp-green/15 shadow-sm aspect-video">
-        <iframe
-          title="Map of Eureka Springs, AR"
-          src="https://www.google.com/maps?q=Eureka+Springs,+AR&output=embed"
-          className="w-full h-full"
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
+      <div className="w-full max-w-4xl mx-auto rounded-2xl overflow-hidden border-2 border-camp-green/15 shadow-sm h-[420px] sm:h-[500px]">
+        <LocationsMap />
       </div>
 
       <div className="max-w-3xl mx-auto w-full text-center">
