@@ -24,8 +24,9 @@ export const schedule: ScheduleDay[] = [
     day: "Day 2",
     date: "Saturday, July 25",
     items: [
-      { time: "9:00 AM", title: "Breakfast", note: "Wear your Camp Emily T-shirt!" },
-      { time: "10:30 AM", title: "Old Time Photo", note: "At Judge Roy Bean" },
+      { time: "9:00 AM", title: "Tea Leaf Reading", note: "At the Air B&B" },
+      { time: "10:30 AM", title: "Breakfast", note: "At Mud Street Cafe" },
+      { time: "Noon", title: "Old Time Photo", note: "At Judge Roy Bean" },
       { time: "1:00 PM", title: "The Lovell Winery" },
       { time: "6:00 PM", title: "Dinner at Amigos" },
       { time: "8:00 PM", title: "Eureka LIVE", note: "Drag Show" },
